@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #cccc;
+}
+
+.header {
+    position: relative;
+    background-color:#489fac;
+    height: 60px;
+    width: 100%;
+    display: inline-block;
+}
+
+.logo {
+    color: white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 100px;
+    font-family: Arial;
+    float: left;
+    font-size: 1.5em;
+}
+
+.menu {
+    color: white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 90px;
+    font-family: Arial;
+    float: right;
+    padding: 10px;
+}
+
+div span {
+    margin: 10px;
+    border: 1px solid black;
+    background-color: #ff6877;
+    padding: 5px
+}
+
+/*background*/
+
+.bg1 {
+    background-color: #111111;
+    width: 800px;
+    height: 400px;
+    margin-top: 30px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.first {
+    width: 800px;
+    height: 400px;
+}
+
+.dark {
+    background-color: #111111;
+    width: 800px;
+    height: 400px;
+    margin-top: 196px;
+    position: relative;
+    top: -400px;
+    transform: translateY(-50%);
+    opacity: 0.5;
+
+
+}
+
+.dark:hover {
+    background-color: transparent;
+    transition: .2s;
+
+}
+
+.click {
+    position: relative;
+    transform: translateY(-1000%);
+
+}
+
+button {
+    position: relative;
+    top: 50%;
+    transform: translateX(-50%);
+    margin-left: 50%;
+}
+
+.three-box {
+    width: 800px;
+    height: 197px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    margin-top: 10px;
+
+}
+
+.boxImage {
+    width: 250px;
+    height: 200px;
+    float: left;
+    margin-left: 12px;
+
+}
+.content{
+    width: 800px;
+    height: 70px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    //background-color: red;
+    margin-top: 10px;
+    float: left;
+}
+.text{
+   width: 250px;
+    height: 200px;
+    float: left;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+.button2{
+    position: relative;
+    left: -40%;
+    
+}
+.footer{
+    background-color: #111111;
+    height: 65px;
+    width: 100%;
+    margin-top: 150px;
+    position: relative;
+    color: #d2cfcf;
+    text-align: center;
+    letter-spacing: 2px;
+    
+}
+.copy{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
